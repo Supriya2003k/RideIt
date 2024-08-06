@@ -1,0 +1,32 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+<div class="container">
+  <div class="container" id="header-text">
+
+    <h1 id="header-h1">
+      <center>Our mission</center>
+    </h1>
+    <p id="header-paragraph">Our mission is to accelerate the adoption of Electric Vehicles (EVs) there by making
+      mobility more sustainable. By catalysisng EV adoption we endeavour reduce our nation's dependence on imported oil
+      and make our air cleaner.</p>
+
+    <h1 id="header-h1">
+      <center>What we do</center>
+    </h1>
+    <p id="header-paragraph">Ride It Private Limited is building the infrastructure needed to enable the EV Revolution
+      in India. We are showing electric vehicles charging stations at various areas throughout the nation which would
+      enable EV owners to travel long distances without the worrying about running out of charge, We are partnering with
+      businesses that are frequented by EV owners such as restaurants, shopping malls and other commercial locations to
+      install chargers in theiir car parks. As charging stations become mmore prevalent, car buyers will confidently
+      choose EVs as concerns about chargers are addressed.</p>
+
+    <center><a class="btn" style="color: white; background-color: #fd5e14;" type="submit"
+        id="body-link-row">Understood!</a></center>
+  </div>
+
+  <div class="container" id="header-image"><img src="images/in-liquid-slide-2.svg " alt=""></div>
+</div>
+
+{% endblock content %}
